@@ -1,0 +1,39 @@
+{
+    "Debug console log": {
+        "prefix": "clg",
+        "scope": "typescript,typescriptreact",
+        "body": [
+            "console.log('$1:', $1)",
+        ],
+        "description": "console log"
+    },
+    "create compontent": {
+        "prefix": "cfc",
+        "scope": "typescript,typescriptreact",
+        "body": [
+            "",
+            "",
+            "interface I$1 {",
+            "}",
+            "",
+            "const $1: I$1 = ({ }) => {",
+            "    return (",
+            "        <div>",
+            "",
+            "        </div>",
+            "    );",
+            "};",
+            "",
+            "export default $1;"
+        ],
+        "description": "create compontent"
+    },
+    "Add className": {
+        "prefix": "cla",
+        "scope": "typescript,typescriptreact",
+        "body": [
+            "className={$1}"
+        ],
+        "description": "Add className"
+    }
+}

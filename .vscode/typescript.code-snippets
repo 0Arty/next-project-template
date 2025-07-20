@@ -1,0 +1,22 @@
+{
+    "create interface": {
+        "prefix": "cinterface",
+        "scope": "typescript,typescriptreact",
+        "body": [
+            "interface I$1{",
+            "  $2",
+            "}"
+        ],
+        "description": "create interface"
+    },
+    "create type": {
+        "prefix": "ctype",
+        "scope": "typescript,typescriptreact",
+        "body": [
+            "type T$1= {",
+            "    $2",
+            "}"
+        ],
+        "description": "create type"
+    }
+}
