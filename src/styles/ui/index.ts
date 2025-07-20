@@ -1,5 +1,5 @@
-import button from './button.module.scss'
+import button from './button.module.scss';
 
 export const uiStyles = {
-    button: button.button
-}
+  button: button.button
+};
